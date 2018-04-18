@@ -14,7 +14,7 @@ public class ExchangeRates{
     static final Map<String, Double> ValuesByName = new HashMap<>();
 
     static int GetDefaultCurrency(String CountryCode){
-        // The index of the country in the Countries has the same index as it's currency in Currencies
+        // The index of the country in Countries[] has the same index as its currency in Currencies[]
         return Arrays.asList(Countries).indexOf(CountryCode);
     }
 }
